@@ -9,6 +9,9 @@ python:
 install:
   - pip install flask
 
+# Versão do Ubuntu
+dist: focal
+
 # Defini o script de Teste que deve rodar toda vez que o código for alterado.
 script:
   - python -m unittest -v test
